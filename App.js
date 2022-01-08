@@ -16,7 +16,7 @@ const DEVICE_WIDTH = Dimensions.get("window").width;
 const DEVICE_HEIGHT = Dimensions.get("window").height;
 const ANDROID_BAR_HEIGHT = Platform.OS === "android" ? Constants.statusBarHeight : 0;
 
-export default function App(props) {
+export default function App() {
 
   const WEBVIEW = useRef()
 
